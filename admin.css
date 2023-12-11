@@ -1,0 +1,11 @@
+.woocommerce_options_panel #upsells_product_data {
+    display:block !important;
+}
+
+
+.custom-admin #toplevel_page_ai1wm_export,.custom-admin #toplevel_page_wp-mail-smtp,
+.custom-admin #menu-posts-elementor_library,.custom-admin #toplevel_page_elementor,
+.custom-admin  #toplevel_page_eael-settings, .custom-admin #toplevel_page_woocommerce-marketing,
+.custom-admin #toplevel_page_wpml_plugin_log {
+    display: none !important;
+}
