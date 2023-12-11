@@ -1050,3 +1050,21 @@ function filter_woocommerce_coupon_message_reload($msg, $msg_code, $coupon) {
 
 	return $msg;
 }
+
+// Log a message to a file within the theme directory
+function stm_write_log($message, $file = 'logs/logfile.log') {
+    // Get the path to the theme directory
+    $theme_directory = get_template_directory();
+
+    // Construct the full path to the log file
+    $log_file_path = $theme_directory . '/' . $file;
+
+    // Create the log directory if it doesn't exist
+    $log_directory = dirname($log_file_path);
+    if (!file_exists($log_directory)) {
+        mkdir($log_directory, 0755, true);
+    }
+
+    // Write the log message to the log file
+    file_put_contents($log_file_path, date('Y-m-d H:i:s') . ' ' . $message . "\n", FILE_APPEND | LOCK_EX);
+}
