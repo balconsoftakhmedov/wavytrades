@@ -1,2 +1,18 @@
-2023-12-11 09:41:52 This is a log message.
-2023-12-11 09:41:54 This is a log message.
+2023-12-11 11:39:22 get_headers
+2023-12-11 11:39:27 process_payment 2856
+2023-12-11 11:39:27 process_pre_order 2856
+2023-12-11 11:39:28 get_headers
+2023-12-11 11:39:28 maybe_disallow_prepaid_card
+2023-12-11 11:39:28 complete_free_order 2856
+2023-12-11 11:39:31 order_status_change
+2023-12-11 11:39:31 send_order_confirmation_email
+2023-12-11 11:41:01 request
+2023-12-11 11:41:01 get_headers
+2023-12-11 11:41:07 process_payment 2860
+2023-12-11 11:41:07 process_pre_order 2860
+2023-12-11 11:41:08 request
+2023-12-11 11:41:08 get_headers
+2023-12-11 11:41:08 maybe_disallow_prepaid_card
+2023-12-11 11:41:08 complete_free_order 2860
+2023-12-11 11:41:10 order_status_change
+2023-12-11 11:41:11 send_order_confirmation_email

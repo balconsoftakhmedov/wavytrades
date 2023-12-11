@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/wavytrades.iml" filepath="$PROJECT_DIR$/.idea/wavytrades.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../plugins/woocommerce-gateway-stripe/.idea/woocommerce-gateway-stripe.iml" filepath="$PROJECT_DIR$/../../plugins/woocommerce-gateway-stripe/.idea/woocommerce-gateway-stripe.iml" />
     </modules>
   </component>
 </project>
