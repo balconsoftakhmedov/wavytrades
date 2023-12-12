@@ -8,5 +8,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="woocommerce-gateway-stripe" />
+    <orderEntry type="module" module-name="woocommerce" />
   </component>
 </module>

@@ -886,10 +886,10 @@ function send_order_confirmation_email($order_id)
             break;
         }
     }
-stm_write_log('send_order_confirmation_email');
+
     // Если заказ содержит загружаемые товары, отправляем письмо с подтверждением заказа
     if ($has_downloadable_products) {
-		stm_write_log('send_order_confirmation_email order statsu completed, has downloaded products');
+
         $order->update_status('completed'); // Устанавливаем статус заказа в "Завершен"
         $order->add_order_note('Order confirmation email sent for downloadable products.'); // Опционально: добавляем примечание к заказу
 
@@ -1034,9 +1034,10 @@ add_filter('admin_body_class', 'add_custom_admin_body_class');
 function custom_change_order_status($order_id) {
 	// Получаем объект заказа
 	$order = wc_get_order($order_id);
-stm_write_log('order_status_change');
+
 	// Меняем статус на "Completed"
 	$order->update_status('completed');
+
 }
 
 add_action('woocommerce_payment_complete', 'custom_change_order_status');
@@ -1054,7 +1055,7 @@ function filter_woocommerce_coupon_message_reload($msg, $msg_code, $coupon) {
 
 // Log a message to a file within the theme directory
 function stm_write_log($message, $file = 'logs/logfile.log') {
-	return;
+return;
     // Get the path to the theme directory
     $theme_directory = get_template_directory();
 

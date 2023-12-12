@@ -1,0 +1,47 @@
+2023-12-12T04:59:47+00:00 DEBUG 
+====Stripe Version: 7.4.3====
+====Start Log====
+account
+====End Log====
+
+
+2023-12-12T05:17:03+00:00 DEBUG 
+====Stripe Version: 7.4.3====
+====Start Log====
+account
+====End Log====
+
+
+2023-12-12T05:17:32+00:00 DEBUG 
+====Stripe Version: 7.4.3====
+====Start Log====
+customers/cus_PARfXPPagRKV52/payment_methods request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2023-12-12T05:17:44+00:00 DEBUG 
+====Stripe Version: 7.4.3====
+====Start Log====
+customers/cus_PARfXPPagRKV52 request: Array
+(
+    [email] => a.pankratov@stylemix.net
+    [description] => Name: demo demo, Username: artem
+    [name] => demo demo
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
