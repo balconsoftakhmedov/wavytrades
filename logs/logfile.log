@@ -113,7 +113,6 @@
 2023-12-12 06:14:00 send_order_confirmation_email
 2023-12-12 06:14:01 order_status_change_completed
 2023-12-12 06:14:01 stripe_after_payment_complete
-
 2023-12-12 06:14:49 request
 2023-12-12 06:14:49 get_headers
 2023-12-12 06:15:02 process_payment 2869
@@ -128,16 +127,23 @@
 2023-12-12 06:15:21 send_order_confirmation_email
 2023-12-12 06:15:22 order_status_change_completed
 2023-12-12 06:15:22 stripe_after_payment_complete
-
-2023-12-12 06:26:12 process_payment 2892
-2023-12-12 06:26:12 process_pre_order 2892
-2023-12-12 06:26:12 request
-2023-12-12 06:26:12 get_headers
-2023-12-12 06:26:13 maybe_disallow_prepaid_card
-2023-12-12 06:26:13 complete_free_order 2892
-2023-12-12 06:26:13 stripe_before_payment_complete
-2023-12-12 06:26:16 order_status_change
-2023-12-12 06:26:16 start_send_order_confirmation_email
-2023-12-12 06:26:16 send_order_confirmation_email
-2023-12-12 06:26:17 order_status_change_completed
-2023-12-12 06:26:17 stripe_after_payment_complete
+2023-12-12 07:12:21 process_payment 2895
+2023-12-12 07:12:21 process_pre_order 2895
+2023-12-12 07:12:22 maybe_disallow_prepaid_card
+2023-12-12 07:12:23 complete_free_order 2895
+2023-12-12 07:12:23 before_payment_complete
+2023-12-12 07:12:23 woocommerce_pre_payment_complete
+2023-12-12 07:12:23 after_woocommerce_pre_payment_complete
+2023-12-12 07:12:39 after_savewoocommerce_payment_complete_order_status
+2023-12-12 07:12:43 after_payment_complete
+2023-12-12 07:17:25 process_payment 2899
+2023-12-12 07:17:25 process_pre_order 2899
+2023-12-12 07:17:26 maybe_disallow_prepaid_card
+2023-12-12 07:17:27 complete_free_order 2899
+2023-12-12 07:17:27 before_payment_complete
+2023-12-12 07:17:27 woocommerce_pre_payment_complete
+2023-12-12 07:17:27 after_woocommerce_pre_payment_complete
+2023-12-12 07:17:27 filter_woocommerce_payment_complete_order_status
+2023-12-12 07:17:27 before_save_woocommerce_payment_complete_order_status
+2023-12-12 07:17:42 after_savewoocommerce_payment_complete_order_status
+2023-12-12 07:17:45 after_payment_complete
