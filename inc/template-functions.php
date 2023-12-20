@@ -35,3 +35,25 @@ function wavytrades_pingback_header() {
 	}
 }
 add_action( 'wp_head', 'wavytrades_pingback_header' );
+function tp_stop_guests( $content ) {
+    global $post;
+$stm_user_active_subscriptions = stm_user_active_subscriptions(false, get_current_user_id());
+$admin = current_user_can('administrator');
+$custom_admin = current_user_can('custom_admin');
+
+
+
+    if ( $post->post_type == 'daily_videos' ) {
+
+        if ( !empty($stm_user_active_subscriptions['plan_name']) || !empty($admin  ) || !empty( $custom_admin ) ){
+
+        }else{
+			wp_redirect(home_url());
+			 exit;
+        }
+    }
+
+    return $content;
+}
+
+add_filter( 'the_content', 'tp_stop_guests' );
