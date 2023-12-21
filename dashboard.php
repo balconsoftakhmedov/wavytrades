@@ -71,7 +71,7 @@ $getUserUrl = get_avatar_url ($theAuthorId);
 
                         <div class="col-sm-6 col-xl-4">
                             <article class="membership-card membership-card--options">
-                                <a href="/dashboard/option/"
+                                <a href="/dashboard/options/"
                                    class="membership-card__header">
                             <span class="membership-card__icon">
                                 <span class="icon icon--lg st-icon-options"></span>
@@ -80,7 +80,7 @@ $getUserUrl = get_avatar_url ($theAuthorId);
                                 </a>
                                 <div class="membership-card__actions">
                                     <a href="/dashboard/account/">Dashboard</a>
-                                    <a href="/dashboard/option/"
+                                    <a href="/dashboard/options/"
                                        rel="nofollow">Trading Room</a>
                                 </div>
                             </article>
